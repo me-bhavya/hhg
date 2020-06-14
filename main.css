@@ -6,14 +6,15 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(40, end) 2,
+    typing 3.5s steps(40, end) infinite,
     blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to {width: 100%}
+  0% { width: 0 }
+  50% {width: 100%}
+  100% {width:0}
 }
 
 #career {
@@ -215,21 +216,20 @@ footer > .container-fluid > ul > li > a {
   height: 70px;
 }
 
-#leadership {
+#leadershipcontainer{
   height: 90vh;
-  max-height: 800px;
+}
+
+#leadership {
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.86),
       rgb(0, 0, 0, 0.86)
     ),
     url("./assets/images/matt\ horn\ 2.png");
-  background-size: 50% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-}
-
-#leadership div {
-  height: 100%;
+  height:80vh;
 }
 
 #storyLeft2{
@@ -267,12 +267,17 @@ footer > .container-fluid > ul > li > a {
   background-image: url("./assets/images/leadership.jpg");
   background-size: contain;
   background-repeat: no-repeat;
+  height: 70vh;
+  width:80%;
+  /* margin-left:15%; */
 }
 
 #kim_img{
     background-image: url("./assets/images/president.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
+    height: 70vh;
+    width:80%;
   }
 
 .separator hr {
@@ -335,10 +340,6 @@ body{
  
 }
 
-#leadership div p{
-  font-size:small;
-}
-
 .rbottom>ul>li>a{
   color: white;
   margin-bottom: 50px;
@@ -382,19 +383,13 @@ body{
   width:25vw;
 }
 
-#leadershiptxt{
-  width:250%;
-}
-
 @media screen and (max-width: 1050px) {
   #centerimg2{
     left:25%;
     bottom:50%;
     width:50vw;
   }
-  #leadershiptxt{
-    width:100%;
-  }
+
   #centerimg1{
     left:-5%;
     bottom:30%;
@@ -405,13 +400,7 @@ body{
   #show1,#show2{
     display:none;
   }
-  #leadership{
-    background-size:100% 100%;
-    width:100vw;
-  }
-  #leadership h1,h3,p{
-    font-size:5vw;
-  }
+
   #ourStory{
     flex-direction: column;
     width:100vw;

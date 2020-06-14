@@ -162,7 +162,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.7),
       rgb(0, 0, 0, 0.7)
     ),
-    url("./assets/images/hornbg.jpg");
+    url("./assets/images/hornbg2.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -341,14 +341,14 @@ body{
   margin-right: auto;
 }
 #centerimg1{
-  left:30vw;
   bottom:30%;
+  width:30vw;
 }
 
 #centerimg2{
-  left:35vw;
-  bottom:20%;
+  bottom:40%;
   width:25vw;
+  height:20vh;
 }
 
 @media screen and (max-width: 1050px) {

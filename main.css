@@ -6,15 +6,14 @@
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
   letter-spacing: .15em; /* Adjust as needed */
   animation: 
-    typing 3.5s steps(40, end) infinite,
+    typing 3.5s steps(40, end) 2,
     blink-caret .75s step-end infinite;
 }
 
 /* The typing effect */
 @keyframes typing {
-  0% { width: 0 }
-  50% {width: 100%}
-  100% {width:0}
+  from { width: 0 }
+  to {width: 100%}
 }
 
 #career {
@@ -26,7 +25,7 @@
     url("./assets/images/career image.png");
   height: auto;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -190,13 +189,15 @@ footer > .container-fluid > ul > li > a {
 }
 
 #leadership {
+  height: 90vh;
+  max-height: 800px;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.86),
       rgb(0, 0, 0, 0.86)
     ),
     url("./assets/images/matt\ horn\ 2.png");
-  background-size: cover;
+  background-size: 50% 100%;
   background-repeat: no-repeat;
   height:100vh;
 }
@@ -295,27 +296,38 @@ body{
 }
 .rbottom{
   position: absolute;
-  top: 300px;
+  top: 400px;
   right: 5px;
   z-index: 1;
   text-align: right;
  
 }
 
-.rbottom>ul>li>a{
-  color: white;
-  margin-bottom: 50px;
-}
-.rbottom>ul>li{
-  margin-bottom: 30px;
+#leadership div p{
+  font-size:small;
 }
 
-#news{
+.rbottom>ul>li>a,.home-left-tab-list{
+  color: white;
+}
+.rbottom>ul>li{
+  margin-bottom: 50px;
+}
+/* #news{
   background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png');
   height: auto;
-  background-size: 100% 100%;
+  background-size: 50% 100% contain;
   background-repeat:no-repeat;
+} */
+#news{
+  background-image: url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png'),
+      linear-gradient(to right, rgba(31, 31, 31, 0.973), rgba(31, 31, 31, 0.973));
+  background-repeat: no-repeat,no-repeat;
+  height: auto;
+  background-size: 50% 100%;
+  background-position:left,right;
 }
+
 
 @media only screen and (max-width: 600px) {
 }
@@ -337,13 +349,19 @@ body{
   width:25vw;
 }
 
+#leadershiptxt{
+  width:250%;
+}
+
 @media screen and (max-width: 1050px) {
   #centerimg2{
     left:25%;
     bottom:50%;
     width:50vw;
   }
-
+  #leadershiptxt{
+    width:100%;
+  }
   #centerimg1{
     left:-5%;
     bottom:30%;
@@ -354,7 +372,13 @@ body{
   #show1,#show2{
     display:none;
   }
-
+  #leadership{
+    background-size:100% 100%;
+    width:100vw;
+  }
+  #leadership h1,h3,p{
+    font-size:5vw;
+  }
   #ourStory{
     flex-direction: column;
     width:100vw;
@@ -389,6 +413,8 @@ body{
   }
 }
 #navbar {
+  position: fixed;
+  top:-200px;
   padding-top: 2%;
   width: 100%;
   transition: top 0.5s;

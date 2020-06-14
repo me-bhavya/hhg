@@ -296,7 +296,7 @@ body{
 .rbottom{
   position: absolute;
   top: 400px;
-  right: 5px;
+  right: 15px;
   z-index: 1;
   text-align: right;
  
@@ -412,6 +412,7 @@ body{
   backdrop-filter: blur(50px);
 }
 .navimg {
+  margin-top:30px;
   width: 150px;
   height: 70px;
 }

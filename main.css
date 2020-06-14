@@ -189,17 +189,15 @@ footer > .container-fluid > ul > li > a {
 }
 
 #leadership {
-  height: 90vh;
-  max-height: 800px;
+  height: 100vh;
   background-image: linear-gradient(
       to right,
       rgba(0, 0, 0, 0.86),
       rgb(0, 0, 0, 0.86)
     ),
     url("./assets/images/matt\ horn\ 2.png");
-  background-size: 50% 100%;
+  background-size: cover;
   background-repeat: no-repeat;
-  height:100vh;
 }
 
 #storyLeft2{
@@ -303,10 +301,6 @@ body{
  
 }
 
-#leadership div p{
-  font-size:small;
-}
-
 .rbottom>ul>li>a,.home-left-tab-list{
   color: white;
 }
@@ -349,19 +343,13 @@ body{
   width:25vw;
 }
 
-#leadershiptxt{
-  width:250%;
-}
-
 @media screen and (max-width: 1050px) {
   #centerimg2{
     left:25%;
     bottom:50%;
     width:50vw;
   }
-  #leadershiptxt{
-    width:100%;
-  }
+
   #centerimg1{
     left:-5%;
     bottom:30%;
@@ -372,13 +360,7 @@ body{
   #show1,#show2{
     display:none;
   }
-  #leadership{
-    background-size:100% 100%;
-    width:100vw;
-  }
-  #leadership h1,h3,p{
-    font-size:5vw;
-  }
+
   #ourStory{
     flex-direction: column;
     width:100vw;

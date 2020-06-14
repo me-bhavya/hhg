@@ -23,7 +23,7 @@
       rgb(0, 0, 0, 0.836)
     ),
     url("./assets/images/career image.png");
-  height: 125vh;
+  height: auto;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;

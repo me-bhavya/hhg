@@ -303,12 +303,21 @@ body{
 .rbottom>ul>li{
   margin-bottom: 50px;
 }
-#news{
+/* #news{
   background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png');
   height: auto;
-  background-size: 100% 100%;
+  background-size: 50% 100% contain;
   background-repeat:no-repeat;
+} */
+#news{
+  background-image: url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png'),
+      linear-gradient(to right, rgba(31, 31, 31, 0.973), rgba(31, 31, 31, 0.973));
+  background-repeat: no-repeat,no-repeat;
+  height: auto;
+  background-size: 50% 100%;
+  background-position:left,right;
 }
+
 
 @media only screen and (max-width: 600px) {
 }

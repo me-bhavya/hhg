@@ -22,7 +22,7 @@
       rgba(0, 0, 0, 0.836),
       rgb(0, 0, 0, 0.836)
     ),
-    url("./career image.png");
+    url("./assets/images/career image.png");
   height: 125vh;
   width: 100%;
   background-size: cover;
@@ -73,7 +73,7 @@
       rgba(0, 0, 0, 0.836),
       rgb(0, 0, 0, 0.836)
     ),
-    url("./contactback.jpg");
+    url("./assets/images/contactback.jpg");
   height: 150vh;
   width: 100%;
   background-size: cover;
@@ -128,7 +128,7 @@
 }
 footer {
   background: linear-gradient(rgba(0, 0, 0, 0.76), rgba(0, 0, 0, 0.76)),
-    url("./robert-klank-yzHEoRSbixU-unsplash.jpg");
+    url("./assets/images/robert-klank-yzHEoRSbixU-unsplash.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.836),
       rgb(0, 0, 0, 0.836)
     ),
-    url("./kbg.jpg");
+    url("./assets/images/kbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -191,7 +191,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.836),
       rgb(0, 0, 0, 0.836)
     ),
-    url("./hornbg.jpg");
+    url("./assets/images/hornbg.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position:center;
@@ -205,7 +205,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.76),
       rgb(0, 0, 0, 0.76)
     ),
-    url("./home\ page\ image\(First\ image\).png");
+    url("./assets/images/home\ page\ image\(First\ image\).png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -223,7 +223,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.86),
       rgb(0, 0, 0, 0.86)
     ),
-    url("./matt\ horn\ 2.png");
+    url("./assets/images/matt\ horn\ 2.png");
   background-size: 50% 100%;
   background-repeat: no-repeat;
 }
@@ -238,7 +238,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.836),
       rgb(0, 0, 0, 0.836)
     ),
-    url("./spices.jpeg");
+    url("./assets/images/spices.jpeg");
   background-repeat: no-repeat;
   background-size:100% 100%;
 }
@@ -249,7 +249,7 @@ footer > .container-fluid > ul > li > a {
       rgba(0, 0, 0, 0.836),
       rgb(0, 0, 0, 0.836)
     ),
-    url("./Our\ Story\ \(Kowbird\ chicken\).png");
+    url("./assets/images/Our\ Story\ \(Kowbird\ chicken\).png");
   background-repeat: no-repeat;
   background-size:100% 100%;
 }
@@ -264,13 +264,13 @@ footer > .container-fluid > ul > li > a {
 }
 
 #matt_img {
-  background-image: url("./leadership.jpg");
+  background-image: url("./assets/images/leadership.jpg");
   background-size: contain;
   background-repeat: no-repeat;
 }
 
 #kim_img{
-    background-image: url("./president.jpeg");
+    background-image: url("./assets/images/president.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
   }
@@ -299,7 +299,7 @@ footer > .container-fluid > ul > li > a {
 
 @font-face{
   font-family: CustomFont ;
-  src: url("./MADE_SAONARA_PERSONAL_USE[1].otf");
+  src: url("./assets/images/MADE_SAONARA_PERSONAL_USE[1].otf");
   
 }
 body{
@@ -311,7 +311,7 @@ body{
 }
 
 #career{
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./career image.png');
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.836) , rgb(0,0,0,0.836)),url('./assets/images/ image.png');
   height:auto;
   width:100%;
   background-size:cover;
@@ -348,7 +348,7 @@ body{
 }
 
 #news{
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./Image to use behind in news &media section in Horn barbrque page.png');
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png');
   height: auto;
   background-size: 100% 100%;
   background-repeat:no-repeat;
@@ -359,7 +359,7 @@ body{
 
 @media only screen and (max-width: 600px) {
 #news{
-  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./Image to use behind in news &media section in Horn barbrque page.png');
+  background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png');
   height: auto;
   background-size: 100% 100%;
   background-repeat:no-repeat;

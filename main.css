@@ -279,6 +279,7 @@ footer > .container-fluid > ul > li > a {
 }
 body{
   background-color: black;
+  overflow-x:hidden !important;
   font-family: 'Montserrat', sans-serif;
   width:100vw;
   color: white;

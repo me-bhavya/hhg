@@ -146,8 +146,8 @@ footer > .container-fluid > ul > li > a {
   width: 100%;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.836),
-      rgb(0, 0, 0, 0.836)
+      rgba(0, 0, 0, 0.7),
+      rgb(0, 0, 0, 0.7)
     ),
     url("./assets/images/kbg.jpg");
   background-size: cover;
@@ -160,8 +160,8 @@ footer > .container-fluid > ul > li > a {
   width: 100%;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.836),
-      rgb(0, 0, 0, 0.836)
+      rgba(0, 0, 0, 0.7),
+      rgb(0, 0, 0, 0.7)
     ),
     url("./assets/images/hornbg.jpg");
   background-size: cover;
@@ -174,8 +174,8 @@ footer > .container-fluid > ul > li > a {
   width: 100%;
   background-image: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.76),
-      rgb(0, 0, 0, 0.76)
+      rgba(0, 0, 0, 0.6),
+      rgb(0, 0, 0, 0.6)
     ),
     url("./assets/images/home\ page\ image\(First\ image\).png");
   background-size: cover;
@@ -184,7 +184,9 @@ footer > .container-fluid > ul > li > a {
 }
 
 #leadershipcontainer{
-  height: 90vh;
+  height: 100vh;
+  padding-bottom:0;
+  padding-top:0;
 }
 
 #leadership {
@@ -196,7 +198,7 @@ footer > .container-fluid > ul > li > a {
     url("./assets/images/matt\ horn\ 2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  height:80vh;
+  height:100vh;
 }
 
 #storyLeft2{
@@ -234,7 +236,8 @@ footer > .container-fluid > ul > li > a {
   background-image: url("./assets/images/leadership.jpg");
   background-size: contain;
   background-repeat: no-repeat;
-  height: 70vh;
+  height: 80vh;
+  align-self:center;
   width:80%;
   /* margin-left:15%; */
 }
@@ -243,7 +246,8 @@ footer > .container-fluid > ul > li > a {
     background-image: url("./assets/images/president.jpeg");
     background-size: contain;
     background-repeat: no-repeat;
-    height: 70vh;
+    height: 80vh;
+    align-self:center;
     width:80%;
   }
 

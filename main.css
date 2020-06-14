@@ -25,7 +25,7 @@
     url("./assets/images/career image.png");
   height: auto;
   width: 100%;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
@@ -286,7 +286,7 @@ body{
 }
 .rbottom{
   position: absolute;
-  top: 300px;
+  top: 400px;
   right: 5px;
   z-index: 1;
   text-align: right;
@@ -297,14 +297,12 @@ body{
   font-size:small;
 }
 
-.rbottom>ul>li>a{
+.rbottom>ul>li>a,.home-left-tab-list{
   color: white;
-  margin-bottom: 50px;
 }
 .rbottom>ul>li{
-  margin-bottom: 30px;
+  margin-bottom: 50px;
 }
-
 #news{
   background-image:linear-gradient(to right, rgba(0, 0, 0, 0.70) , rgb(0,0,0,0.70)),url('./assets/images/Image to use behind in news &media section in Horn barbrque page.png');
   height: auto;
@@ -396,6 +394,8 @@ body{
   }
 }
 #navbar {
+  position: fixed;
+  top:-200px;
   padding-top: 2%;
   width: 100%;
   transition: top 0.5s;

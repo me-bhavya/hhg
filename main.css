@@ -85,7 +85,14 @@
 #contact-heading{
   margin: 70px;
 }
-
+.form-control{
+  background: transparent;
+  color: white;
+}
+.form-control:focus{
+  background: transparent;
+  color: white;
+}
 #car {
   z-index: 1;
   margin-top: 70%;

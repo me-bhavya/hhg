@@ -331,6 +331,7 @@ body{
   height:100vh;
 }
 
+
 @media screen and (max-width: 1000px) {
 
   .abc{
@@ -446,4 +447,11 @@ body{
   width: 80px;
   height: 1px;
   background-color: white;
+}
+#le{
+  font-size: 25px;
+}
+#le-main{
+  font-size: 30px;
+  
 }

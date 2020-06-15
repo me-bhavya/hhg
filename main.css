@@ -332,7 +332,7 @@ body{
   height:100vh;
 }
 
-#storytext{
+.storytext{
   background-color:#1A1A1A;
   padding:auto auto;
 }
@@ -384,12 +384,12 @@ body{
   #ourStory div h1{
     font-size:small;
   }
-  #storytext{
+  .storytext{
     width:100%;
     padding:0 !important;
     margin:0% !important;
   }
-  #storytext p{
+  .storytext p{
     font-size:small;
     padding:20px !important;
     margin:0% !important;

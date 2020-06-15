@@ -48,7 +48,14 @@
 #contact-heading{
   margin: 70px;
 }
-
+.form-control{
+  background: transparent;
+  color: white;
+}
+.form-control:focus{
+  background: transparent;
+  color: white;
+}
 #car {
   z-index: 1;
   margin-top: 70%;
@@ -261,9 +268,8 @@ body{
 }
 .rbottom{
   position: absolute;
-  top: 400px;
+  bottom: 40px;
   right: 15px;
-  z-index: 1;
   text-align: right;
  
 }
@@ -394,9 +400,9 @@ body{
   backdrop-filter: blur(50px);
 }
 .navimg,.navimg1 {
-  margin-top:30px;
+  margin-top:20px;
   width: 150px;
-  height: 70px;
+  height: 50px;
 }
 @media only screen and (max-width: 600px) {
   .vl{
@@ -415,4 +421,21 @@ body{
   #privacy-policy{
     text-align: left;
   }
+}
+.home-scroll-bar{
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: flex-end;
+  
+  position: absolute;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  right: 0;
+}
+.home-scroll-bar hr{
+  margin-top:20px !important;
+  width: 80px;
+  height: 1px;
+  background-color: white;
 }

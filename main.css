@@ -397,25 +397,29 @@ body{
   border-left: 1px solid white;
   height: 100px;
 }
-@media only screen and (max-width: 600px) {
-  .vl{
-    height: 0px;
-  }
-}
 #navbar {
   position: fixed;
-  top:-200px;
-  padding-top: 2%;
+  top:-400px;
   width: 100%;
   transition: top 0.5s;
   -webkit-backdrop-filter: blur(50px);
   backdrop-filter: blur(50px);
 }
-.navimg {
+.navimg,.navimg1 {
   margin-top:30px;
   width: 150px;
   height: 70px;
 }
+@media only screen and (max-width: 600px) {
+  .vl{
+    height: 0px;
+  }
+  .navimg1{
+    height: 0px;
+    width: 0px;
+  }
+}
+
 #privacy-policy{
   text-align: right;
 }
